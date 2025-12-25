@@ -1,0 +1,1684 @@
+{
+	"info": {
+		"_postman_id": "8c1e7099-c21c-46a5-9041-437ce7884b46",
+		"name": "oneriver",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "20687835"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/api/funds/search?quote=DENİZ&minReturn=13.5&returnPeriod=return1Month&umbrellaType=&sort=return1Month,asc",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/funds/search?quote=DENİZ&minReturn=13.5&returnPeriod=return1Month&umbrellaType=&sort=return1Month,asc",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"funds",
+						"search"
+					],
+					"query": [
+						{
+							"key": "quote",
+							"value": "DENİZ"
+						},
+						{
+							"key": "minReturn",
+							"value": "13.5"
+						},
+						{
+							"key": "returnPeriod",
+							"value": "return1Month"
+						},
+						{
+							"key": "umbrellaType",
+							"value": ""
+						},
+						{
+							"key": "sort",
+							"value": "return1Month,asc"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/funds/search?quote=DENİZ&minReturn=13.5&returnPeriod=return1Month&umbrellaType=&sort=return1Month,asc",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/funds/search?quote=DENİZ&minReturn=13.5&returnPeriod=return1Month&umbrellaType=&sort=return1Month,asc",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"funds",
+						"search"
+					],
+					"query": [
+						{
+							"key": "quote",
+							"value": "DENİZ"
+						},
+						{
+							"key": "minReturn",
+							"value": "13.5"
+						},
+						{
+							"key": "returnPeriod",
+							"value": "return1Month"
+						},
+						{
+							"key": "umbrellaType",
+							"value": ""
+						},
+						{
+							"key": "sort",
+							"value": "return1Month,asc"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/funds/upload?file",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": []
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/funds/upload?file",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"funds",
+						"upload"
+					],
+					"query": [
+						{
+							"key": "file",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/funds/search?quote=DENİZ&minReturn=13.5&returnPeriod=return1Month&umbrellaType=&sort=return1Month,asc",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/funds/search?quote=DENİZ&minReturn=13.5&returnPeriod=return1Month&umbrellaType=&sort=return1Month,asc",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"funds",
+						"search"
+					],
+					"query": [
+						{
+							"key": "quote",
+							"value": "DENİZ"
+						},
+						{
+							"key": "minReturn",
+							"value": "13.5"
+						},
+						{
+							"key": "returnPeriod",
+							"value": "return1Month"
+						},
+						{
+							"key": "umbrellaType",
+							"value": ""
+						},
+						{
+							"key": "sort",
+							"value": "return1Month,asc"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/funds/search?quote=DENİZ&minReturn=13.5&returnPeriod=return1Month&umbrellaType=&sort=return1Year,asc",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/funds/search?quote=DENİZ&minReturn=13.5&returnPeriod=return1Month&umbrellaType=&sort=return1Year,asc",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"funds",
+						"search"
+					],
+					"query": [
+						{
+							"key": "quote",
+							"value": "DENİZ"
+						},
+						{
+							"key": "minReturn",
+							"value": "13.5"
+						},
+						{
+							"key": "returnPeriod",
+							"value": "return1Month"
+						},
+						{
+							"key": "umbrellaType",
+							"value": ""
+						},
+						{
+							"key": "sort",
+							"value": "return1Year,asc"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/funds/search?quote=DENİZ&minReturn=13.5&returnPeriod=return1Month&umbrellaType=Fon Sepeti Şemsiye Fonu&sort=return1Year,asc",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/funds/search?quote=DENİZ&minReturn=13.5&returnPeriod=return1Month&umbrellaType=Fon Sepeti Şemsiye Fonu&sort=return1Year,asc",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"funds",
+						"search"
+					],
+					"query": [
+						{
+							"key": "quote",
+							"value": "DENİZ"
+						},
+						{
+							"key": "minReturn",
+							"value": "13.5"
+						},
+						{
+							"key": "returnPeriod",
+							"value": "return1Month"
+						},
+						{
+							"key": "umbrellaType",
+							"value": "Fon Sepeti Şemsiye Fonu"
+						},
+						{
+							"key": "sort",
+							"value": "return1Year,asc"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/funds/search?quote=DENİZ&minReturn=13.5&returnPeriod=return1Month&umbrellaType=&sort=return1Year,asc",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/funds/search?quote=DENİZ&minReturn=13.5&returnPeriod=return1Month&umbrellaType=&sort=return1Year,asc",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"funds",
+						"search"
+					],
+					"query": [
+						{
+							"key": "quote",
+							"value": "DENİZ"
+						},
+						{
+							"key": "minReturn",
+							"value": "13.5"
+						},
+						{
+							"key": "returnPeriod",
+							"value": "return1Month"
+						},
+						{
+							"key": "umbrellaType",
+							"value": ""
+						},
+						{
+							"key": "sort",
+							"value": "return1Year,asc"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/funds/search?quote=DENİZ&minReturn=13&returnPeriod=return1Month&umbrellaType=&sort=return1Year,asc",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/funds/search?quote=DENİZ&minReturn=13&returnPeriod=return1Month&umbrellaType=&sort=return1Year,asc",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"funds",
+						"search"
+					],
+					"query": [
+						{
+							"key": "quote",
+							"value": "DENİZ"
+						},
+						{
+							"key": "minReturn",
+							"value": "13"
+						},
+						{
+							"key": "returnPeriod",
+							"value": "return1Month"
+						},
+						{
+							"key": "umbrellaType",
+							"value": ""
+						},
+						{
+							"key": "sort",
+							"value": "return1Year,asc"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/funds/search?quote=DENİZ&minReturn=5&returnPeriod=return1Month&umbrellaType=&sort=return1Year,asc",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/funds/search?quote=DENİZ&minReturn=5&returnPeriod=return1Month&umbrellaType=&sort=return1Year,asc",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"funds",
+						"search"
+					],
+					"query": [
+						{
+							"key": "quote",
+							"value": "DENİZ"
+						},
+						{
+							"key": "minReturn",
+							"value": "5"
+						},
+						{
+							"key": "returnPeriod",
+							"value": "return1Month"
+						},
+						{
+							"key": "umbrellaType",
+							"value": ""
+						},
+						{
+							"key": "sort",
+							"value": "return1Year,asc"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/funds/search?quote=DENİZ&minReturn=90&returnPeriod=return1Month&umbrellaType=&sort=return1Year,asc",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/funds/search?quote=DENİZ&minReturn=90&returnPeriod=return1Month&umbrellaType=&sort=return1Year,asc",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"funds",
+						"search"
+					],
+					"query": [
+						{
+							"key": "quote",
+							"value": "DENİZ"
+						},
+						{
+							"key": "minReturn",
+							"value": "90"
+						},
+						{
+							"key": "returnPeriod",
+							"value": "return1Month"
+						},
+						{
+							"key": "umbrellaType",
+							"value": ""
+						},
+						{
+							"key": "sort",
+							"value": "return1Year,asc"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/funds/search?quote=DENİZ&minReturn=90&returnPeriod=returnYtd&umbrellaType=&sort=return1Year,asc",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/funds/search?quote=DENİZ&minReturn=90&returnPeriod=returnYtd&umbrellaType=&sort=return1Year,asc",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"funds",
+						"search"
+					],
+					"query": [
+						{
+							"key": "quote",
+							"value": "DENİZ"
+						},
+						{
+							"key": "minReturn",
+							"value": "90"
+						},
+						{
+							"key": "returnPeriod",
+							"value": "returnYtd"
+						},
+						{
+							"key": "umbrellaType",
+							"value": ""
+						},
+						{
+							"key": "sort",
+							"value": "return1Year,asc"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/funds/search?quote=DENİZ&minReturn=90&returnPeriod=returnYtd&umbrellaType=Kıymetli Madenler Şemsiye Fonu&sort=return1Year,asc",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/funds/search?quote=DENİZ&minReturn=90&returnPeriod=returnYtd&umbrellaType=Kıymetli Madenler Şemsiye Fonu&sort=return1Year,asc",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"funds",
+						"search"
+					],
+					"query": [
+						{
+							"key": "quote",
+							"value": "DENİZ"
+						},
+						{
+							"key": "minReturn",
+							"value": "90"
+						},
+						{
+							"key": "returnPeriod",
+							"value": "returnYtd"
+						},
+						{
+							"key": "umbrellaType",
+							"value": "Kıymetli Madenler Şemsiye Fonu"
+						},
+						{
+							"key": "sort",
+							"value": "return1Year,asc"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/funds/search?quote=DENİZ&minReturn=90&returnPeriod=returnYtd&umbrellaType=&sort=return1Year,asc",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/funds/search?quote=DENİZ&minReturn=90&returnPeriod=returnYtd&umbrellaType=&sort=return1Year,asc",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"funds",
+						"search"
+					],
+					"query": [
+						{
+							"key": "quote",
+							"value": "DENİZ"
+						},
+						{
+							"key": "minReturn",
+							"value": "90"
+						},
+						{
+							"key": "returnPeriod",
+							"value": "returnYtd"
+						},
+						{
+							"key": "umbrellaType",
+							"value": ""
+						},
+						{
+							"key": "sort",
+							"value": "return1Year,asc"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/funds/search?quote=TACİRLER&minReturn=90&returnPeriod=returnYtd&umbrellaType=&sort=return1Year,asc",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/funds/search?quote=TACİRLER&minReturn=90&returnPeriod=returnYtd&umbrellaType=&sort=return1Year,asc",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"funds",
+						"search"
+					],
+					"query": [
+						{
+							"key": "quote",
+							"value": "TACİRLER"
+						},
+						{
+							"key": "minReturn",
+							"value": "90"
+						},
+						{
+							"key": "returnPeriod",
+							"value": "returnYtd"
+						},
+						{
+							"key": "umbrellaType",
+							"value": ""
+						},
+						{
+							"key": "sort",
+							"value": "return1Year,asc"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/funds/search?quote=TACİRLER&minReturn=90&returnPeriod=returnYtd&umbrellaType=Kıymetli Madenler Şemsiye Fonu&sort=return1Year,asc",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/funds/search?quote=TACİRLER&minReturn=90&returnPeriod=returnYtd&umbrellaType=Kıymetli Madenler Şemsiye Fonu&sort=return1Year,asc",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"funds",
+						"search"
+					],
+					"query": [
+						{
+							"key": "quote",
+							"value": "TACİRLER"
+						},
+						{
+							"key": "minReturn",
+							"value": "90"
+						},
+						{
+							"key": "returnPeriod",
+							"value": "returnYtd"
+						},
+						{
+							"key": "umbrellaType",
+							"value": "Kıymetli Madenler Şemsiye Fonu"
+						},
+						{
+							"key": "sort",
+							"value": "return1Year,asc"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/funds/search?quote=NAO&minReturn=90&returnPeriod=returnYtd&umbrellaType=Kıymetli Madenler Şemsiye Fonu&sort=return1Year,asc",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/funds/search?quote=NAO&minReturn=90&returnPeriod=returnYtd&umbrellaType=Kıymetli Madenler Şemsiye Fonu&sort=return1Year,asc",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"funds",
+						"search"
+					],
+					"query": [
+						{
+							"key": "quote",
+							"value": "NAO"
+						},
+						{
+							"key": "minReturn",
+							"value": "90"
+						},
+						{
+							"key": "returnPeriod",
+							"value": "returnYtd"
+						},
+						{
+							"key": "umbrellaType",
+							"value": "Kıymetli Madenler Şemsiye Fonu"
+						},
+						{
+							"key": "sort",
+							"value": "return1Year,asc"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/funds/search?quote=AK&minReturn=90&returnPeriod=returnYtd&umbrellaType=Kıymetli Madenler Şemsiye Fonu&sort=return1Year,asc",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/funds/search?quote=AK&minReturn=90&returnPeriod=returnYtd&umbrellaType=Kıymetli Madenler Şemsiye Fonu&sort=return1Year,asc",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"funds",
+						"search"
+					],
+					"query": [
+						{
+							"key": "quote",
+							"value": "AK"
+						},
+						{
+							"key": "minReturn",
+							"value": "90"
+						},
+						{
+							"key": "returnPeriod",
+							"value": "returnYtd"
+						},
+						{
+							"key": "umbrellaType",
+							"value": "Kıymetli Madenler Şemsiye Fonu"
+						},
+						{
+							"key": "sort",
+							"value": "return1Year,asc"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/funds/search?quote=AK&minReturn=90&returnPeriod=returnYtd&umbrellaType=Kıymetli Madenler Şemsiye Fonu&sort=return1Year,asc",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/funds/search?quote=AK&minReturn=90&returnPeriod=returnYtd&umbrellaType=Kıymetli Madenler Şemsiye Fonu&sort=return1Year,asc",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"funds",
+						"search"
+					],
+					"query": [
+						{
+							"key": "quote",
+							"value": "AK"
+						},
+						{
+							"key": "minReturn",
+							"value": "90"
+						},
+						{
+							"key": "returnPeriod",
+							"value": "returnYtd"
+						},
+						{
+							"key": "umbrellaType",
+							"value": "Kıymetli Madenler Şemsiye Fonu"
+						},
+						{
+							"key": "sort",
+							"value": "return1Year,asc"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/funds/search?quote=AK&minReturn=0&returnPeriod=returnYtd&umbrellaType=Kıymetli Madenler Şemsiye Fonu&sort=return1Year,asc",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/funds/search?quote=AK&minReturn=0&returnPeriod=returnYtd&umbrellaType=Kıymetli Madenler Şemsiye Fonu&sort=return1Year,asc",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"funds",
+						"search"
+					],
+					"query": [
+						{
+							"key": "quote",
+							"value": "AK"
+						},
+						{
+							"key": "minReturn",
+							"value": "0"
+						},
+						{
+							"key": "returnPeriod",
+							"value": "returnYtd"
+						},
+						{
+							"key": "umbrellaType",
+							"value": "Kıymetli Madenler Şemsiye Fonu"
+						},
+						{
+							"key": "sort",
+							"value": "return1Year,asc"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/funds/search?quote=AK&minReturn=100&returnPeriod=returnYtd&umbrellaType=Kıymetli Madenler Şemsiye Fonu&sort=return1Year,asc",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/funds/search?quote=AK&minReturn=100&returnPeriod=returnYtd&umbrellaType=Kıymetli Madenler Şemsiye Fonu&sort=return1Year,asc",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"funds",
+						"search"
+					],
+					"query": [
+						{
+							"key": "quote",
+							"value": "AK"
+						},
+						{
+							"key": "minReturn",
+							"value": "100"
+						},
+						{
+							"key": "returnPeriod",
+							"value": "returnYtd"
+						},
+						{
+							"key": "umbrellaType",
+							"value": "Kıymetli Madenler Şemsiye Fonu"
+						},
+						{
+							"key": "sort",
+							"value": "return1Year,asc"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/funds/search?quote=AK&minReturn=500&returnPeriod=returnYtd&umbrellaType=Kıymetli Madenler Şemsiye Fonu&sort=return1Year,asc",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/funds/search?quote=AK&minReturn=500&returnPeriod=returnYtd&umbrellaType=Kıymetli Madenler Şemsiye Fonu&sort=return1Year,asc",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"funds",
+						"search"
+					],
+					"query": [
+						{
+							"key": "quote",
+							"value": "AK"
+						},
+						{
+							"key": "minReturn",
+							"value": "500"
+						},
+						{
+							"key": "returnPeriod",
+							"value": "returnYtd"
+						},
+						{
+							"key": "umbrellaType",
+							"value": "Kıymetli Madenler Şemsiye Fonu"
+						},
+						{
+							"key": "sort",
+							"value": "return1Year,asc"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/funds/search?quote=AK&minReturn=1000&returnPeriod=returnYtd&umbrellaType=Kıymetli Madenler Şemsiye Fonu&sort=return1Year,asc",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/funds/search?quote=AK&minReturn=1000&returnPeriod=returnYtd&umbrellaType=Kıymetli Madenler Şemsiye Fonu&sort=return1Year,asc",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"funds",
+						"search"
+					],
+					"query": [
+						{
+							"key": "quote",
+							"value": "AK"
+						},
+						{
+							"key": "minReturn",
+							"value": "1000"
+						},
+						{
+							"key": "returnPeriod",
+							"value": "returnYtd"
+						},
+						{
+							"key": "umbrellaType",
+							"value": "Kıymetli Madenler Şemsiye Fonu"
+						},
+						{
+							"key": "sort",
+							"value": "return1Year,asc"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/funds/search?quote=AK&minReturn=1500&returnPeriod=returnYtd&umbrellaType=Kıymetli Madenler Şemsiye Fonu&sort=return1Year,asc",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/funds/search?quote=AK&minReturn=1500&returnPeriod=returnYtd&umbrellaType=Kıymetli Madenler Şemsiye Fonu&sort=return1Year,asc",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"funds",
+						"search"
+					],
+					"query": [
+						{
+							"key": "quote",
+							"value": "AK"
+						},
+						{
+							"key": "minReturn",
+							"value": "1500"
+						},
+						{
+							"key": "returnPeriod",
+							"value": "returnYtd"
+						},
+						{
+							"key": "umbrellaType",
+							"value": "Kıymetli Madenler Şemsiye Fonu"
+						},
+						{
+							"key": "sort",
+							"value": "return1Year,asc"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/funds/search?quote=AK&minReturn=&returnPeriod=returnYtd&umbrellaType=Kıymetli Madenler Şemsiye Fonu&sort=return1Year,asc",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/funds/search?quote=AK&minReturn=&returnPeriod=returnYtd&umbrellaType=Kıymetli Madenler Şemsiye Fonu&sort=return1Year,asc",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"funds",
+						"search"
+					],
+					"query": [
+						{
+							"key": "quote",
+							"value": "AK"
+						},
+						{
+							"key": "minReturn",
+							"value": ""
+						},
+						{
+							"key": "returnPeriod",
+							"value": "returnYtd"
+						},
+						{
+							"key": "umbrellaType",
+							"value": "Kıymetli Madenler Şemsiye Fonu"
+						},
+						{
+							"key": "sort",
+							"value": "return1Year,asc"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/funds/search?quote=NEO&minReturn=&returnPeriod=returnYtd&umbrellaType=Kıymetli Madenler Şemsiye Fonu&sort=return1Year,asc",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/funds/search?quote=NEO&minReturn=&returnPeriod=returnYtd&umbrellaType=Kıymetli Madenler Şemsiye Fonu&sort=return1Year,asc",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"funds",
+						"search"
+					],
+					"query": [
+						{
+							"key": "quote",
+							"value": "NEO"
+						},
+						{
+							"key": "minReturn",
+							"value": ""
+						},
+						{
+							"key": "returnPeriod",
+							"value": "returnYtd"
+						},
+						{
+							"key": "umbrellaType",
+							"value": "Kıymetli Madenler Şemsiye Fonu"
+						},
+						{
+							"key": "sort",
+							"value": "return1Year,asc"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/funds/search?quote=NEO&minReturn=&returnPeriod=returnYtd&umbrellaType=Kıymetli Madenler Şemsiye Fonu&sort=return1Year,desc",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/funds/search?quote=NEO&minReturn=&returnPeriod=returnYtd&umbrellaType=Kıymetli Madenler Şemsiye Fonu&sort=return1Year,desc",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"funds",
+						"search"
+					],
+					"query": [
+						{
+							"key": "quote",
+							"value": "NEO"
+						},
+						{
+							"key": "minReturn",
+							"value": ""
+						},
+						{
+							"key": "returnPeriod",
+							"value": "returnYtd"
+						},
+						{
+							"key": "umbrellaType",
+							"value": "Kıymetli Madenler Şemsiye Fonu"
+						},
+						{
+							"key": "sort",
+							"value": "return1Year,desc"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/funds/search?quote=NEO&minReturn=&returnPeriod=returnYtd&umbrellaType=&sort=return1Year,desc",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/funds/search?quote=NEO&minReturn=&returnPeriod=returnYtd&umbrellaType=&sort=return1Year,desc",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"funds",
+						"search"
+					],
+					"query": [
+						{
+							"key": "quote",
+							"value": "NEO"
+						},
+						{
+							"key": "minReturn",
+							"value": ""
+						},
+						{
+							"key": "returnPeriod",
+							"value": "returnYtd"
+						},
+						{
+							"key": "umbrellaType",
+							"value": ""
+						},
+						{
+							"key": "sort",
+							"value": "return1Year,desc"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/funds/search?quote=NEO&minReturn=&returnPeriod=returnYtd&umbrellaType=&sort=return1Year,desc",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/funds/search?quote=NEO&minReturn=&returnPeriod=returnYtd&umbrellaType=&sort=return1Year,desc",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"funds",
+						"search"
+					],
+					"query": [
+						{
+							"key": "quote",
+							"value": "NEO"
+						},
+						{
+							"key": "minReturn",
+							"value": ""
+						},
+						{
+							"key": "returnPeriod",
+							"value": "returnYtd"
+						},
+						{
+							"key": "umbrellaType",
+							"value": ""
+						},
+						{
+							"key": "sort",
+							"value": "return1Year,desc"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/funds/search?quote=NEO&minReturn=&returnPeriod=returnYtd&umbrellaType=&sort=return1Year,asc",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/funds/search?quote=NEO&minReturn=&returnPeriod=returnYtd&umbrellaType=&sort=return1Year,asc",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"funds",
+						"search"
+					],
+					"query": [
+						{
+							"key": "quote",
+							"value": "NEO"
+						},
+						{
+							"key": "minReturn",
+							"value": ""
+						},
+						{
+							"key": "returnPeriod",
+							"value": "returnYtd"
+						},
+						{
+							"key": "umbrellaType",
+							"value": ""
+						},
+						{
+							"key": "sort",
+							"value": "return1Year,asc"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/funds/search?quote=NEO&minReturn=20&returnPeriod=returnYtd&umbrellaType=&sort=return1Year,asc",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/funds/search?quote=NEO&minReturn=20&returnPeriod=returnYtd&umbrellaType=&sort=return1Year,asc",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"funds",
+						"search"
+					],
+					"query": [
+						{
+							"key": "quote",
+							"value": "NEO"
+						},
+						{
+							"key": "minReturn",
+							"value": "20"
+						},
+						{
+							"key": "returnPeriod",
+							"value": "returnYtd"
+						},
+						{
+							"key": "umbrellaType",
+							"value": ""
+						},
+						{
+							"key": "sort",
+							"value": "return1Year,asc"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/funds/search?quote=AAK&minReturn=20&returnPeriod=returnYtd&umbrellaType=Değişken Şemsiye Fonu&sort=return1Year,asc",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/funds/search?quote=AAK&minReturn=20&returnPeriod=returnYtd&umbrellaType=Değişken Şemsiye Fonu&sort=return1Year,asc",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"funds",
+						"search"
+					],
+					"query": [
+						{
+							"key": "quote",
+							"value": "AAK"
+						},
+						{
+							"key": "minReturn",
+							"value": "20"
+						},
+						{
+							"key": "returnPeriod",
+							"value": "returnYtd"
+						},
+						{
+							"key": "umbrellaType",
+							"value": "Değişken Şemsiye Fonu"
+						},
+						{
+							"key": "sort",
+							"value": "return1Year,asc"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/funds/search?quote=AAK&minReturn=20&returnPeriod=returnYtd&umbrellaType=Değişken&sort=return1Year,asc",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/funds/search?quote=AAK&minReturn=20&returnPeriod=returnYtd&umbrellaType=Değişken&sort=return1Year,asc",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"funds",
+						"search"
+					],
+					"query": [
+						{
+							"key": "quote",
+							"value": "AAK"
+						},
+						{
+							"key": "minReturn",
+							"value": "20"
+						},
+						{
+							"key": "returnPeriod",
+							"value": "returnYtd"
+						},
+						{
+							"key": "umbrellaType",
+							"value": "Değişken"
+						},
+						{
+							"key": "sort",
+							"value": "return1Year,asc"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/funds/search?quote=AAK&minReturn=20&returnPeriod=return3Month&umbrellaType=&sort=return1Year,asc",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/funds/search?quote=AAK&minReturn=20&returnPeriod=return3Month&umbrellaType=&sort=return1Year,asc",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"funds",
+						"search"
+					],
+					"query": [
+						{
+							"key": "quote",
+							"value": "AAK"
+						},
+						{
+							"key": "minReturn",
+							"value": "20"
+						},
+						{
+							"key": "returnPeriod",
+							"value": "return3Month"
+						},
+						{
+							"key": "umbrellaType",
+							"value": ""
+						},
+						{
+							"key": "sort",
+							"value": "return1Year,asc"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/funds/search?quote=AAK&minReturn=20&returnPeriod=returnYtd&umbrellaType=&sort=return1Year,asc",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/funds/search?quote=AAK&minReturn=20&returnPeriod=returnYtd&umbrellaType=&sort=return1Year,asc",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"funds",
+						"search"
+					],
+					"query": [
+						{
+							"key": "quote",
+							"value": "AAK"
+						},
+						{
+							"key": "minReturn",
+							"value": "20"
+						},
+						{
+							"key": "returnPeriod",
+							"value": "returnYtd"
+						},
+						{
+							"key": "umbrellaType",
+							"value": ""
+						},
+						{
+							"key": "sort",
+							"value": "return1Year,asc"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/funds/search?quote=AAK&minReturn=30&returnPeriod=returnYtd&umbrellaType=&sort=return1Year,asc",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/funds/search?quote=AAK&minReturn=30&returnPeriod=returnYtd&umbrellaType=&sort=return1Year,asc",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"funds",
+						"search"
+					],
+					"query": [
+						{
+							"key": "quote",
+							"value": "AAK"
+						},
+						{
+							"key": "minReturn",
+							"value": "30"
+						},
+						{
+							"key": "returnPeriod",
+							"value": "returnYtd"
+						},
+						{
+							"key": "umbrellaType",
+							"value": ""
+						},
+						{
+							"key": "sort",
+							"value": "return1Year,asc"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/funds/search?quote=AAK&minReturn=20&returnPeriod=returnYtd&umbrellaType=&sort=return1Year,asc",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/funds/search?quote=AAK&minReturn=20&returnPeriod=returnYtd&umbrellaType=&sort=return1Year,asc",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"funds",
+						"search"
+					],
+					"query": [
+						{
+							"key": "quote",
+							"value": "AAK"
+						},
+						{
+							"key": "minReturn",
+							"value": "20"
+						},
+						{
+							"key": "returnPeriod",
+							"value": "returnYtd"
+						},
+						{
+							"key": "umbrellaType",
+							"value": ""
+						},
+						{
+							"key": "sort",
+							"value": "return1Year,asc"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/funds/search?quote=AAK&minReturn=10&returnPeriod=returnYtd&umbrellaType=&sort=return1Year,asc",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/funds/search?quote=AAK&minReturn=10&returnPeriod=returnYtd&umbrellaType=&sort=return1Year,asc",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"funds",
+						"search"
+					],
+					"query": [
+						{
+							"key": "quote",
+							"value": "AAK"
+						},
+						{
+							"key": "minReturn",
+							"value": "10"
+						},
+						{
+							"key": "returnPeriod",
+							"value": "returnYtd"
+						},
+						{
+							"key": "umbrellaType",
+							"value": ""
+						},
+						{
+							"key": "sort",
+							"value": "return1Year,asc"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/funds/search?quote=AZIM&minReturn=10&returnPeriod=returnYtd&umbrellaType=Serbest Şemsiye Fonu&sort=return1Year,asc",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/funds/search?quote=AZIM&minReturn=10&returnPeriod=returnYtd&umbrellaType=Serbest Şemsiye Fonu&sort=return1Year,asc",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"funds",
+						"search"
+					],
+					"query": [
+						{
+							"key": "quote",
+							"value": "AZIM"
+						},
+						{
+							"key": "minReturn",
+							"value": "10"
+						},
+						{
+							"key": "returnPeriod",
+							"value": "returnYtd"
+						},
+						{
+							"key": "umbrellaType",
+							"value": "Serbest Şemsiye Fonu"
+						},
+						{
+							"key": "sort",
+							"value": "return1Year,asc"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/funds/search?quote=AZIM&minReturn=10&returnPeriod=returnYtd&umbrellaType=Serbest Şemsiye Fonu&sort=return1Year,asc",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/funds/search?quote=AZIM&minReturn=10&returnPeriod=returnYtd&umbrellaType=Serbest Şemsiye Fonu&sort=return1Year,asc",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"funds",
+						"search"
+					],
+					"query": [
+						{
+							"key": "quote",
+							"value": "AZIM"
+						},
+						{
+							"key": "minReturn",
+							"value": "10"
+						},
+						{
+							"key": "returnPeriod",
+							"value": "returnYtd"
+						},
+						{
+							"key": "umbrellaType",
+							"value": "Serbest Şemsiye Fonu"
+						},
+						{
+							"key": "sort",
+							"value": "return1Year,asc"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
