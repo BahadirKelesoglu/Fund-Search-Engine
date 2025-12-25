@@ -47,15 +47,8 @@ curl --location 'http://localhost:8080/api/funds/upload' \
 The search endpoint is dynamic. You can combine any of the parameters below.
 
 
-Parameter       Type			                  Description								                 Example
-----------      ------              ---------------------------                --------------------------                              
-quote           string          Partial match for Fund Code or Fund Name   quote=AK		
-umbrellaType    string          Exact match for the umbrella category      umbrellaType=Hisse Senedi Şemsiye Fonu
-minReturn       number          Minimum return rate filter                 minReturn=50 (returns > %50)
-returnPeriod    string          Period to apply the return filter          return1Year
-sort            string          Sorting field and direction                sort=return1Year,desc
-page            number          Page number (starts from 0)                page=0
-size            number          Page size (default 10)                     size=20
+<img width="1097" height="163" alt="image" src="https://github.com/user-attachments/assets/d5d049a7-e29f-439f-b8d4-a90b90a730ab" />
+
 
 Full Example Query: "Find funds containing 'AK', within 'Hisse Senedi Şemsiye Fonu' category, with >50% yearly return, sorted by highest return, page starts from 0 and each page have 20 entry"
 
