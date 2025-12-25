@@ -75,7 +75,11 @@ Data Facade: A dedicated FundDataManager service manages data synchronization ac
 Tech Stack:
 
 Java 17 & Spring Boot 3.5.9
+
 Elasticsearch (Search Engine)
+
 PostgreSQL (DB)
+
 Docker Compose
+
 Apache POI (Excel Processing)
